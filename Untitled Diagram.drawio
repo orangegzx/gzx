@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T09:10:43.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="-rpqY-6YDfUdKCO9FpCX" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-18T10:07:01.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="kFoJrFj4AEQV3mrTpqyG" version="17.1.3" type="github">
   <diagram id="BRU-C2kcGeTS7Em7pVJV" name="Page-1">
-    <mxGraphModel dx="5704" dy="3652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,13 +47,13 @@
           <mxGeometry x="110" y="20" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--23" value="DOM-Diff 算法 对比新旧VNode过程——patch过程，即补丁过程" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;align=left;startSize=70;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="370" width="2685" height="1690" as="geometry" />
+          <mxGeometry x="930" y="290" width="2685" height="1690" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--24" target="Et2niudzJevYGXXobUG--72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--24" value="VNode 节点为 元素类型" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="997" y="877" width="150" height="40" as="geometry" />
+          <mxGeometry x="379" y="1087" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--25" value="可被创建和插入DOM 的VNode 类型： 元素节点、文本节点、注释节点" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
           <mxGeometry x="30" y="90" width="520" height="30" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--50" value="vue 判断节点时判断新的 VNode &lt;br&gt;与 旧 VNode 有差异的节点的类型&lt;br&gt;是哪一种类型，&lt;br&gt;从而调用不同的方法创建并插入 DOM 中" style="rhombus;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="914.5" y="570" width="315" height="140" as="geometry" />
+          <mxGeometry x="296.5" y="780" width="315" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--51" value="旧 VNode:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(48 , 48 , 48) ; font-family: &amp;#34;stsong&amp;#34; ; font-size: 12pt&quot;&gt;数据变化前视图所对应的的虚拟DOM节点&lt;br&gt;新 VNode：&lt;/span&gt;&lt;span style=&quot;color: rgb(48 , 48 , 48) ; font-family: &amp;#34;stsong&amp;#34; ; font-size: 12pt&quot;&gt;数据变化后将要渲染的新的视图所对应的虚拟 DOM 节点&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;strokeWidth=0;dashed=1;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
           <mxGeometry x="30" y="130" width="520" height="60" as="geometry" />
@@ -70,9 +70,9 @@
         <mxCell id="Et2niudzJevYGXXobUG--158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--53" target="Et2niudzJevYGXXobUG--107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1517" y="310" />
-              <mxPoint x="1070" y="310" />
-              <mxPoint x="1070" y="390" />
+              <mxPoint x="899" y="520" />
+              <mxPoint x="452" y="520" />
+              <mxPoint x="452" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -82,19 +82,19 @@
         <mxCell id="Et2niudzJevYGXXobUG--186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--53" target="Et2niudzJevYGXXobUG--153">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1517" y="310" />
-              <mxPoint x="1919" y="310" />
+              <mxPoint x="899" y="520" />
+              <mxPoint x="1301" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--53" value="&lt;span&gt;以新的VNode 为基准，&lt;/span&gt;&lt;br&gt;&lt;span&gt;改造旧的 VNode ，&lt;/span&gt;&lt;br&gt;&lt;span&gt;使之成为与新的 VNode 一样&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1436.88" y="180" width="160" height="80" as="geometry" />
+          <mxGeometry x="818.8800000000001" y="390" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--56" target="Et2niudzJevYGXXobUG--81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--56" value="VNode 节点为 注释节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="827.5" y="879" width="140" height="40" as="geometry" />
+          <mxGeometry x="209.5" y="1089" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--69" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--63" target="Et2niudzJevYGXXobUG--24">
           <mxGeometry relative="1" as="geometry" />
@@ -103,7 +103,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--63" value="VNode 节点是否有&lt;br&gt;&amp;nbsp;tag 标签" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1007" y="750" width="130" height="80" as="geometry" />
+          <mxGeometry x="389" y="960" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--64" target="Et2niudzJevYGXXobUG--65">
           <mxGeometry relative="1" as="geometry" />
@@ -117,40 +117,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--64" value="VNode 节点 的 isComment = true" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="832.5" y="750" width="130" height="80" as="geometry" />
+          <mxGeometry x="214.5" y="960" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--72" target="Et2niudzJevYGXXobUG--74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--72" value="调用createElement 方法创建元素节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="997" y="945" width="150" height="40" as="geometry" />
+          <mxGeometry x="379" y="1155" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--74" target="Et2niudzJevYGXXobUG--75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--74" value="递归遍历创建所有子节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="997" y="1019" width="150" height="40" as="geometry" />
+          <mxGeometry x="379" y="1229" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--75" target="Et2niudzJevYGXXobUG--76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--75" value="将子节点插入到当前元素节点中" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="997" y="1093" width="150" height="40" as="geometry" />
+          <mxGeometry x="379" y="1303" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--76" value="把当前元素节点插入到 DOM 中" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="764.5" y="1093" width="150" height="40" as="geometry" />
+          <mxGeometry x="146.5" y="1303" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--81" target="Et2niudzJevYGXXobUG--76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--81" value="调用createComment 方法创建注释节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="822.5" y="945" width="150" height="40" as="geometry" />
+          <mxGeometry x="204.5" y="1155" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;shape=link;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--96" target="Et2niudzJevYGXXobUG--50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--96" value="创建节点" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1012" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="394" y="710" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--111" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=20;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--100" target="Et2niudzJevYGXXobUG--110">
           <mxGeometry relative="1" as="geometry" />
@@ -159,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--100" value="删除节点" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1456.88" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="838.8800000000001" y="710" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--154" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=20;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--101" target="Et2niudzJevYGXXobUG--153">
           <mxGeometry relative="1" as="geometry" />
@@ -168,45 +168,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--101" value="更新节点" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1859" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="1241" y="710" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--159" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--107" target="Et2niudzJevYGXXobUG--96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--107" value="&lt;h1 style=&quot;font-size: 13px;&quot;&gt;&lt;p style=&quot;font-size: 13px; margin: 0px;&quot;&gt;&lt;span style=&quot;font-size: 13px; color: rgb(48, 48, 48);&quot;&gt;如果新的 VNode 有的节点，旧的 VNode 上没有，那么在旧的 VNode 加上去&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontFamily=Helvetica;fontSize=13;fontColor=#333333;align=left;fontStyle=0;verticalAlign=bottom;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="986.5" y="390" width="171" height="70" as="geometry" />
+          <mxGeometry x="368.5" y="600" width="171" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--110" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;font-size: 13px ; margin: 0px&quot;&gt;&lt;span style=&quot;font-size: 13px ; color: rgb(48 , 48 , 48)&quot;&gt;如果新的 VNode 没有的节点，旧的 VNode 上有，那么在旧的 VNode 上删除&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontFamily=Helvetica;fontSize=13;fontColor=#333333;align=left;fontStyle=0;verticalAlign=bottom;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1418" y="390" width="197.75" height="70" as="geometry" />
+          <mxGeometry x="800" y="600" width="197.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--153" value="&lt;h1 style=&quot;font-size: 13px&quot;&gt;&lt;p style=&quot;font-size: 13px ; margin: 0px&quot;&gt;&lt;span style=&quot;font-size: 13px ; color: rgb(48 , 48 , 48)&quot;&gt;如果新旧的 VNode 都有，以新的为准，更新旧的 VNode ,让新旧 VNode 相同&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontFamily=Helvetica;fontSize=13;fontColor=#333333;align=left;fontStyle=0;verticalAlign=bottom;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1833.5" y="390" width="171" height="70" as="geometry" />
+          <mxGeometry x="1215.5" y="600" width="171" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--57" value="VNode 节点为 文本节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="658" y="879" width="139" height="40" as="geometry" />
+          <mxGeometry x="40" y="1089" width="139" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--65" target="Et2niudzJevYGXXobUG--57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--65" value="其他" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="662.5" y="750" width="130" height="80" as="geometry" />
+          <mxGeometry x="44.5" y="960" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--87" target="Et2niudzJevYGXXobUG--76">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="721" y="1036" />
-              <mxPoint x="840" y="1036" />
+              <mxPoint x="103" y="1246" />
+              <mxPoint x="222" y="1246" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--87" value="调用createTextNodet 方法创建文本节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="662.5" y="945" width="130" height="40" as="geometry" />
+          <mxGeometry x="44.5" y="1155" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--57" target="Et2niudzJevYGXXobUG--87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--181" value="&lt;span style=&quot;color: rgb(44 , 62 , 80) ; font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;在 旧 VNode 上，在要删除节点的父元素上调用&lt;/span&gt;&lt;code style=&quot;color: rgb(71 , 101 , 130) ; padding: 0.25rem 0.5rem ; margin: 0px ; font-size: 12px ; background-color: rgba(27 , 31 , 35 , 0.05) ; border-radius: 3px&quot;&gt;removeChild&lt;/code&gt;&lt;span style=&quot;color: rgb(44 , 62 , 80) ; font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;方法即可&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=12;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1423.8200000000002" y="600" width="186.12" height="50" as="geometry" />
+          <mxGeometry x="805.8200000000002" y="810" width="186.12" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--184" value="&lt;p style=&quot;line-height: 0.1&quot;&gt;&lt;/p&gt;&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;静态节点&lt;/font&gt;&lt;/h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(44 , 62 , 80) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;节点里面只包含了纯文字，没有任何可变的变量；&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(44 , 62 , 80) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;即不管数据再怎么变化，只要这个节点第一次渲染了，那么它以后就永远不会发生变化，&lt;/span&gt;&lt;span style=&quot;color: rgb(44 , 62 , 80) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;因为它不包含任何变量，所以数据发生任何变化都与它无关。我们把这种节点称之为静态节点&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
           <mxGeometry x="30" y="230" width="500" height="110" as="geometry" />
@@ -223,22 +223,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--188" value="新 VNode 和 旧 VNode 是否完全一样" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="585" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="795" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--241" target="Et2niudzJevYGXXobUG--248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--241" value="新 VNode 和 旧 VNode 都是静态节点？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="712" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="922" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--243" value="退出程序" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2050" y="605" width="150" height="40" as="geometry" />
+          <mxGeometry x="1432" y="815" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--309" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--248" target="Et2niudzJevYGXXobUG--308">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--248" value="新 VNode 是文本节点吗？即有 text 属性吗？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="830" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="1040" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--308" target="Et2niudzJevYGXXobUG--315">
           <mxGeometry relative="1" as="geometry" />
@@ -252,14 +252,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--308" value="新 旧VNode 都有&lt;br&gt;子节点吗" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="951" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="1161" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--313" value="用新的VNode 文本替换真实 DOM 节点中的内容" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2240" y="850" width="150" height="40" as="geometry" />
+          <mxGeometry x="1622" y="1060" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--241" target="Et2niudzJevYGXXobUG--243">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2130" y="650.9999999999998" as="targetPoint" />
+            <mxPoint x="1512" y="860.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--315" target="Et2niudzJevYGXXobUG--320">
@@ -271,10 +271,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--315" value="新旧VNode 的&lt;br&gt;子节点不同 ？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2080" y="955.5" width="111" height="71" as="geometry" />
+          <mxGeometry x="1462" y="1165.5" width="111" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="Et2niudzJevYGXXobUG--320" value="更新子节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2240" y="971" width="150" height="40" as="geometry" />
+        <mxCell id="Et2niudzJevYGXXobUG--353" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--320" target="Et2niudzJevYGXXobUG--352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--320" value="更新子节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="1622" y="1181" width="138" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--322" target="Et2niudzJevYGXXobUG--324">
           <mxGeometry relative="1" as="geometry" />
@@ -293,7 +296,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--322" value="只有 新 VNode &lt;br&gt;有子节点" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="1073" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="1283" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--328" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--324" target="Et2niudzJevYGXXobUG--327">
           <mxGeometry relative="1" as="geometry" />
@@ -307,7 +310,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--324" value="旧VNode 有文本&amp;nbsp;？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2080" y="1078" width="111" height="71" as="geometry" />
+          <mxGeometry x="1462" y="1288" width="111" height="71" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--326" target="Et2niudzJevYGXXobUG--339">
           <mxGeometry relative="1" as="geometry" />
@@ -326,21 +329,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--326" value="只有旧 VNode &lt;br&gt;有子节点" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="1243" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="1453" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--334" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--327" target="Et2niudzJevYGXXobUG--329">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2330" y="1210" />
-              <mxPoint x="2210" y="1210" />
+              <mxPoint x="1712" y="1420" />
+              <mxPoint x="1592" y="1420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--327" value="清空 DOM的文本" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2250" y="1093.5" width="150" height="40" as="geometry" />
+          <mxGeometry x="1632" y="1303.5" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--329" value="把新VNode 中的子节点添加到DOM中" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2060.5" y="1194" width="150" height="40" as="geometry" />
+          <mxGeometry x="1442.5" y="1404" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--339" target="Et2niudzJevYGXXobUG--327">
           <mxGeometry relative="1" as="geometry" />
@@ -351,10 +354,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--339" value="只有旧 VNode &lt;br&gt;有文本" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="1854" y="1362" width="130" height="80" as="geometry" />
+          <mxGeometry x="1236" y="1572" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--310" value="新 VNode 与 旧 VNode 的文本不同？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2069.5" y="834.5" width="111" height="71" as="geometry" />
+          <mxGeometry x="1451.5" y="1044.5" width="111" height="71" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--311" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--248" target="Et2niudzJevYGXXobUG--310">
           <mxGeometry relative="1" as="geometry" />
@@ -371,7 +374,56 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--342" value="清空 DOM的子节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
-          <mxGeometry x="2059.5" y="1263" width="150" height="40" as="geometry" />
+          <mxGeometry x="1441.5" y="1473" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--357" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--351" target="Et2niudzJevYGXXobUG--356">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--368" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--351" target="Et2niudzJevYGXXobUG--366">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--351" value="newChildren 的某个子节点在oldChildren 数组中是否找到相同的子节点" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2050" y="1163.5" width="210" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#FF3333;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--352" target="Et2niudzJevYGXXobUG--351">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--352" target="Et2niudzJevYGXXobUG--358">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="1583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--352" value="遍历新旧VNode，对比子节点；新旧VNode 的&lt;font color=&quot;#ff3333&quot;&gt;子节点数组&lt;/font&gt;用newChildren、oldChildren 比喻" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="1820" y="1161" width="180" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--356" value="旧Node上 创建子节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2299" y="1180.5" width="138" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--362" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--358" target="Et2niudzJevYGXXobUG--360">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--358" value="遍历完 newChildren ，发现&lt;br&gt;oldChildren还有未处理的子节点，&lt;br&gt;说明子节点是废弃的" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2060" y="1533" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--360" value="旧Node上 删除子节点" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2359" y="1563" width="138" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--370" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--366" target="Et2niudzJevYGXXobUG--369">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--376" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" edge="1" parent="Et2niudzJevYGXXobUG--23" source="Et2niudzJevYGXXobUG--366" target="Et2niudzJevYGXXobUG--372">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--366" value="所处位置是否不同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2080" y="1288" width="150" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--369" value="移动子节点：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;以 newChildren 里子节点的位置为准，调整oldChildren 里该子节点的位置&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2299" y="1295.5" width="171" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--372" value="更新子节点：&lt;br&gt;更新oldChildren 该子节点的位置，使之与newChildren中的子节点的位置相同" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Et2niudzJevYGXXobUG--23">
+          <mxGeometry x="2299" y="1380" width="230" height="61" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.385;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" edge="1" parent="1" source="Et2niudzJevYGXXobUG--27" target="Et2niudzJevYGXXobUG--23">
           <mxGeometry relative="1" as="geometry" />

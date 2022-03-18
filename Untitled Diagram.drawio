@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T07:22:05.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="byElfT7bpxGbQBcYCv_S" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-18T07:24:41.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ZvwjtA4t7BXdc8-FgtTg" version="17.1.3" type="github">
   <diagram id="BRU-C2kcGeTS7Em7pVJV" name="Page-1">
     <mxGraphModel dx="1426" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,19 +70,28 @@
           <mxGeometry x="50" y="50" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--27" value="VNode 类型" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="200" y="230" width="510" height="400" as="geometry" />
+          <mxGeometry x="120" y="280" width="300" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--29" value="能够被创建并插入到 DOM " style="swimlane;" vertex="1" parent="Et2niudzJevYGXXobUG--27">
-          <mxGeometry x="30" y="60" width="200" height="200" as="geometry" />
+          <mxGeometry x="15" y="50" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Et2niudzJevYGXXobUG--30" value="元素节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--29">
           <mxGeometry x="20" y="40" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Et2niudzJevYGXXobUG--31" value="文本节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--29">
-          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        <mxCell id="Et2niudzJevYGXXobUG--31" value="文本节点—text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--29">
+          <mxGeometry x="20" y="90" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Et2niudzJevYGXXobUG--32" value="注释节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--29">
-          <mxGeometry x="20" y="140" width="80" height="30" as="geometry" />
+        <mxCell id="Et2niudzJevYGXXobUG--32" value="注释节点—isComment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--29">
+          <mxGeometry x="20" y="140" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--35" value="克隆节点—isCloned" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--27">
+          <mxGeometry x="15" y="270" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--36" value="函数式组件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--27">
+          <mxGeometry x="15" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Et2niudzJevYGXXobUG--37" value="组件节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Et2niudzJevYGXXobUG--27">
+          <mxGeometry x="15" y="350" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
